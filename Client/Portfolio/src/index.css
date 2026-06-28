@@ -1,0 +1,22 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:wght@200..1000&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap');
+
+@import "tailwindcss";
+@theme {
+  --font-alfa: "Alfa Slab One", serif;
+  --font-pacifico:"Pacifico", cursive;
+
+}
+
+@theme {
+  --color-primary: #FEC868;
+}
+
+@layer components {
+  .container {
+    @apply mx-auto w-full px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24;
+  }
+}
+
